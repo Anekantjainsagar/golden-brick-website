@@ -41,7 +41,7 @@ Please connect me with a Senior Relationship Manager.`;
     <div>
       {/* Header Banner */}
       <section style={{
-        background: 'linear-gradient(180deg, rgba(8, 20, 16, 0.88) 0%, rgba(8, 20, 16, 0.96) 100%), url("/images/nature-reflection-sunglasses.jpg") center/cover no-repeat',
+        background: 'linear-gradient(180deg, rgba(9, 14, 23, 0.92) 0%, rgba(15, 23, 42, 0.97) 100%), url("/images/nature-reflection-sunglasses.jpg") center/cover no-repeat',
         color: '#ffffff',
         padding: '90px 0 60px',
         borderBottom: '2px solid #c8801f'
@@ -65,7 +65,7 @@ Please connect me with a Senior Relationship Manager.`;
           <div style={{ display: 'grid', gridTemplateColumns: '1fr 1.2fr', gap: '50px' }} className="contact-grid">
             {/* Left Column: Office & Direct Contact Info */}
             <div>
-              <div className="badge-forest" style={{ marginBottom: '14px' }}>
+              <div className="badge-gold" style={{ marginBottom: '14px' }}>
                 <MapPin size={13} /> Direct Contact Channels
               </div>
               <h2 style={{ fontSize: '32px', fontWeight: 800, color: 'var(--text-dark)', marginBottom: '16px' }}>
@@ -89,7 +89,7 @@ Please connect me with a Senior Relationship Manager.`;
                 </div>
 
                 <div style={{ display: 'flex', gap: '16px', alignItems: 'flex-start' }}>
-                  <div style={{ width: '44px', height: '44px', borderRadius: '10px', background: 'var(--forest-tag-bg)', color: 'var(--forest-green)', display: 'flex', alignItems: 'center', justifyContent: 'center', flexShrink: 0 }}>
+                  <div style={{ width: '44px', height: '44px', borderRadius: '10px', background: 'var(--accent-gold-bg)', color: 'var(--accent-gold-dark)', display: 'flex', alignItems: 'center', justifyContent: 'center', flexShrink: 0 }}>
                     <Phone size={22} />
                   </div>
                   <div>
@@ -155,7 +155,7 @@ Please connect me with a Senior Relationship Manager.`;
 
               {submitted ? (
                 <div style={{ textAlign: 'center', padding: '40px 10px' }}>
-                  <div style={{ width: '64px', height: '64px', borderRadius: '50%', background: 'var(--forest-tag-bg)', color: 'var(--forest-green)', display: 'flex', alignItems: 'center', justifyContent: 'center', margin: '0 auto 20px' }}>
+                  <div style={{ width: '64px', height: '64px', borderRadius: '50%', background: 'var(--accent-gold-bg)', color: 'var(--accent-gold-dark)', display: 'flex', alignItems: 'center', justifyContent: 'center', margin: '0 auto 20px' }}>
                     <CheckCircle2 size={36} />
                   </div>
                   <h4 style={{ fontSize: '20px', fontWeight: 800, color: 'var(--text-dark)', marginBottom: '8px' }}>

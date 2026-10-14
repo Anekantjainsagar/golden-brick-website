@@ -69,7 +69,7 @@ Please confirm my VIP site pass and allocate a Relationship Manager.`;
       }}>
         {/* Header */}
         <div style={{
-          background: 'linear-gradient(135deg, #081410 0%, #153828 100%)',
+          background: 'linear-gradient(135deg, #090e17 0%, #0f172a 100%)',
           color: '#ffffff',
           padding: '24px 28px',
           borderTopLeftRadius: '18px',
@@ -113,7 +113,7 @@ Please confirm my VIP site pass and allocate a Relationship Manager.`;
         <div style={{ padding: '28px' }}>
           {submitted ? (
             <div style={{ textAlign: 'center', padding: '30px 10px' }}>
-              <div style={{ width: '64px', height: '64px', borderRadius: '50%', background: 'var(--forest-tag-bg)', color: 'var(--forest-green)', display: 'flex', alignItems: 'center', justifyContent: 'center', margin: '0 auto 20px' }}>
+              <div style={{ width: '64px', height: '64px', borderRadius: '50%', background: 'var(--accent-gold-bg)', color: 'var(--accent-gold-dark)', display: 'flex', alignItems: 'center', justifyContent: 'center', margin: '0 auto 20px' }}>
                 <CheckCircle2 size={36} />
               </div>
               <h4 style={{ fontSize: '20px', fontWeight: 800, color: 'var(--text-dark)', marginBottom: '8px' }}>

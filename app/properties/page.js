@@ -29,7 +29,7 @@ export default function PropertiesPage() {
     <div>
       {/* Header Banner */}
       <section style={{
-        background: 'linear-gradient(180deg, rgba(8, 20, 16, 0.88) 0%, rgba(8, 20, 16, 0.96) 100%), url("/images/take-the-centrestage.jpg") center/cover no-repeat',
+        background: 'linear-gradient(180deg, rgba(9, 14, 23, 0.92) 0%, rgba(15, 23, 42, 0.97) 100%), url("/images/take-the-centrestage.jpg") center/cover no-repeat',
         color: '#ffffff',
         padding: '90px 0 60px',
         borderBottom: '2px solid #c8801f'
@@ -170,7 +170,7 @@ export default function PropertiesPage() {
                       <div style={{ display: 'flex', flexDirection: 'column', gap: '8px', marginBottom: '24px' }}>
                         {prop.highlights.map((h, i) => (
                           <div key={i} style={{ display: 'flex', alignItems: 'center', gap: '8px', fontSize: '13px', color: '#334155' }}>
-                            <CheckCircle2 size={14} color="#184232" style={{ flexShrink: 0 }} />
+                            <CheckCircle2 size={14} color="#c8801f" style={{ flexShrink: 0 }} />
                             <span>{h}</span>
                           </div>
                         ))}

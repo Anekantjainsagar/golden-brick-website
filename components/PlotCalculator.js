@@ -77,7 +77,7 @@ Please confirm current inventory availability and schedule a VIP site tour.`;
     <div className="card-luxury" style={{ padding: '0', overflow: 'hidden' }}>
       {/* Top Banner */}
       <div style={{
-        background: 'linear-gradient(135deg, #081410 0%, #153828 100%)',
+        background: 'linear-gradient(135deg, #090e17 0%, #141f32 100%)',
         color: '#ffffff',
         padding: '24px 32px',
         borderBottom: '2px solid #c8801f',
@@ -238,20 +238,20 @@ Please confirm current inventory availability and schedule a VIP site tour.`;
 
             {/* Trust Assurance Badge */}
             <div style={{
-              background: 'var(--forest-tag-bg)',
-              border: '1px solid rgba(24, 66, 50, 0.2)',
+              background: '#f1f5f9',
+              border: '1px solid #cbd5e1',
               borderRadius: '12px',
               padding: '16px',
               display: 'flex',
               gap: '12px',
               alignItems: 'flex-start'
             }}>
-              <ShieldCheck size={22} color="var(--forest-green)" style={{ flexShrink: 0, marginTop: '2px' }} />
+              <ShieldCheck size={22} color="#0f172a" style={{ flexShrink: 0, marginTop: '2px' }} />
               <div>
-                <div style={{ fontWeight: 700, fontSize: '13px', color: 'var(--forest-tag-text)' }}>
+                <div style={{ fontWeight: 700, fontSize: '13px', color: '#0f172a' }}>
                   Statutory RERA Verification Guaranteed
                 </div>
-                <div style={{ fontSize: '12px', color: '#335c4b', marginTop: '2px' }}>
+                <div style={{ fontSize: '12px', color: '#475569', marginTop: '2px' }}>
                   Haryana RERA Registration No. HRERA-PKL-PKL-355-2022 &amp; HRERA-PKL-PKL-782-2025. Every payment is routed to designated escrow accounts.
                 </div>
               </div>
@@ -260,7 +260,7 @@ Please confirm current inventory availability and schedule a VIP site tour.`;
 
           {/* Right Column: Pricing & Milestone Sheet */}
           <div style={{
-            background: '#faf9f6',
+            background: 'var(--surface-cashmere)',
             borderRadius: '16px',
             border: '1.5px solid rgba(200, 128, 31, 0.25)',
             padding: '24px',
@@ -273,7 +273,7 @@ Please confirm current inventory availability and schedule a VIP site tour.`;
                 <span style={{ fontSize: '12px', textTransform: 'uppercase', letterSpacing: '0.5px', color: '#64748b', fontWeight: 600 }}>
                   Indicative Total Investment
                 </span>
-                <span style={{ fontSize: '28px', fontWeight: 800, color: '#081410', fontFamily: 'var(--font-heading)' }}>
+                <span style={{ fontSize: '28px', fontWeight: 800, color: '#0f172a', fontFamily: 'var(--font-heading)' }}>
                   {formatCrores(grandTotal)}
                 </span>
               </div>
@@ -326,8 +326,8 @@ Please confirm current inventory availability and schedule a VIP site tour.`;
                           width: '18px',
                           height: '18px',
                           borderRadius: '50%',
-                          background: '#e2e8f0',
-                          color: '#334155',
+                          background: '#0f172a',
+                          color: '#ffffff',
                           fontSize: '10px',
                           display: 'flex',
                           alignItems: 'center',

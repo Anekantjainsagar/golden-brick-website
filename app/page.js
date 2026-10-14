@@ -15,7 +15,6 @@ import {
   Clock, 
   Trees, 
   Building2, 
-  ExternalLink,
   ChevronDown,
   Trophy,
   Zap,
@@ -57,7 +56,7 @@ export default function HomePage() {
       <section style={{
         position: 'relative',
         minHeight: '88vh',
-        background: 'linear-gradient(180deg, rgba(8, 20, 16, 0.78) 0%, rgba(8, 20, 16, 0.92) 100%), url("/images/take-the-centrestage.jpg") center/cover no-repeat',
+        background: 'linear-gradient(180deg, rgba(9, 14, 23, 0.82) 0%, rgba(9, 14, 23, 0.94) 100%), url("/images/take-the-centrestage.jpg") center/cover no-repeat',
         display: 'flex',
         alignItems: 'center',
         padding: '80px 0 60px',
@@ -71,7 +70,7 @@ export default function HomePage() {
               display: 'inline-flex',
               alignItems: 'center',
               gap: '8px',
-              background: 'rgba(200, 128, 31, 0.2)',
+              background: 'rgba(200, 128, 31, 0.18)',
               border: '1px solid #c8801f',
               padding: '6px 16px',
               borderRadius: '9999px',
@@ -82,7 +81,7 @@ export default function HomePage() {
               letterSpacing: '0.4px'
             }}>
               <Clock size={14} color="#fef08a" />
-              <span>OFFICIAL UPDATE: LIMITED LICENCE-3 PLOTS &bull; CURRENT RATE ₹1.39L / SQ. YD.</span>
+              <span>OFFICIAL UPDATE: LIMITED LICENCE-3 PLOTS &bull; BENCHMARK RATE ₹1.39L / SQ. YD.</span>
             </div>
 
             <h1 style={{
@@ -107,7 +106,7 @@ export default function HomePage() {
               marginBottom: '36px',
               fontWeight: 400
             }}>
-              Special Edition Residential Plots nestled in the lush Shivalik foothills at <strong>Trident Hills, Panchkula</strong>. Presented by <strong>Golden Brick</strong> with complete RERA statutory transparency, 8-milestone construction escrow, and live CRM tracking.
+              Special Edition Residential Plots nestled in the serene Shivalik foothills at <strong>Trident Hills, Panchkula</strong>. Marketed by <strong>Golden Brick</strong> with complete HRERA statutory transparency, 8-milestone construction escrow, and live CRM tracking.
             </p>
 
             {/* Hero Action Buttons */}
@@ -133,7 +132,7 @@ export default function HomePage() {
               display: 'grid',
               gridTemplateColumns: 'repeat(4, 1fr)',
               gap: '16px',
-              background: 'rgba(8, 20, 16, 0.75)',
+              background: 'rgba(9, 14, 23, 0.75)',
               backdropFilter: 'blur(12px)',
               padding: '20px',
               borderRadius: '16px',
@@ -161,10 +160,10 @@ export default function HomePage() {
       </section>
 
       {/* 2. DUAL ENCLAVE SPOTLIGHT: FOREST VISTA & CENTRAL VISTA */}
-      <section style={{ padding: '90px 0', background: 'var(--surface-cream)' }} id="enclaves">
+      <section style={{ padding: '90px 0', background: 'var(--surface-cashmere)' }} id="enclaves">
         <div className="container">
           <div style={{ textAlign: 'center', maxWidth: '720px', margin: '0 auto 50px' }}>
-            <div className="badge-forest" style={{ marginBottom: '12px' }}>
+            <div className="badge-gold" style={{ marginBottom: '12px' }}>
               <Compass size={13} /> Exclusive Enclaves at Trident Hills
             </div>
             <h2 style={{ fontSize: '36px', fontWeight: 800, color: 'var(--text-dark)', marginBottom: '16px' }}>
@@ -188,7 +187,7 @@ export default function HomePage() {
                   position: 'absolute',
                   top: '16px',
                   left: '16px',
-                  background: 'rgba(8, 20, 16, 0.85)',
+                  background: 'rgba(9, 14, 23, 0.88)',
                   color: '#f3c178',
                   padding: '6px 14px',
                   borderRadius: '9999px',
@@ -212,20 +211,20 @@ export default function HomePage() {
                     Flanked by dense greenery, morning mountain mist, and pristine walking trails. Forest Vista features generously proportioned plots (250 – 500+ Sq. Yds.) oriented towards virgin ridge views.
                   </p>
 
-                  <div style={{ background: '#f8fafc', padding: '16px', borderRadius: '12px', border: '1px solid #e2e8f0', marginBottom: '24px' }}>
+                  <div style={{ background: '#ffffff', padding: '16px', borderRadius: '12px', border: '1px solid #e2e8f0', marginBottom: '24px' }}>
                     <div style={{ display: 'flex', justifyContent: 'space-between', fontSize: '13px', marginBottom: '6px' }}>
                       <span style={{ color: '#64748b' }}>Plot Sizes:</span>
                       <strong style={{ color: '#0f172a' }}>250 to 500+ Sq. Yds.</strong>
                     </div>
                     <div style={{ display: 'flex', justifyContent: 'space-between', fontSize: '13px' }}>
                       <span style={{ color: '#64748b' }}>RERA Registration:</span>
-                      <strong style={{ color: '#143728' }}>HRERA-PKL-PKL-355-2022</strong>
+                      <strong style={{ color: '#0f172a' }}>HRERA-PKL-PKL-355-2022</strong>
                     </div>
                   </div>
                 </div>
 
                 <div style={{ display: 'flex', gap: '12px' }}>
-                  <Link href="/trident-hills#forest-vista" className="btn-forest" style={{ flex: 1, textAlign: 'center' }}>
+                  <Link href="/trident-hills#forest-vista" className="btn-navy" style={{ flex: 1, textAlign: 'center' }}>
                     Explore Enclave
                   </Link>
                   <button type="button" onClick={triggerSiteVisit} className="btn-outline-gold" style={{ padding: '12px 18px' }}>
@@ -247,7 +246,7 @@ export default function HomePage() {
                   position: 'absolute',
                   top: '16px',
                   left: '16px',
-                  background: 'rgba(8, 20, 16, 0.85)',
+                  background: 'rgba(9, 14, 23, 0.88)',
                   color: '#f3c178',
                   padding: '6px 14px',
                   borderRadius: '9999px',
@@ -271,20 +270,20 @@ export default function HomePage() {
                     The prime boulevard sector anchored by a monumental geometric entrance canopy, palm-lined avenues, proximity to the multi-sport clubhouse, and Special Edition plot layouts (200 – 450 Sq. Yds.).
                   </p>
 
-                  <div style={{ background: '#f8fafc', padding: '16px', borderRadius: '12px', border: '1px solid #e2e8f0', marginBottom: '24px' }}>
+                  <div style={{ background: '#ffffff', padding: '16px', borderRadius: '12px', border: '1px solid #e2e8f0', marginBottom: '24px' }}>
                     <div style={{ display: 'flex', justifyContent: 'space-between', fontSize: '13px', marginBottom: '6px' }}>
                       <span style={{ color: '#64748b' }}>Plot Sizes:</span>
                       <strong style={{ color: '#0f172a' }}>200 to 450 Sq. Yds.</strong>
                     </div>
                     <div style={{ display: 'flex', justifyContent: 'space-between', fontSize: '13px' }}>
                       <span style={{ color: '#64748b' }}>RERA Registration:</span>
-                      <strong style={{ color: '#143728' }}>HRERA-PKL-PKL-782-2025</strong>
+                      <strong style={{ color: '#0f172a' }}>HRERA-PKL-PKL-782-2025</strong>
                     </div>
                   </div>
                 </div>
 
                 <div style={{ display: 'flex', gap: '12px' }}>
-                  <Link href="/trident-hills#central-vista" className="btn-forest" style={{ flex: 1, textAlign: 'center' }}>
+                  <Link href="/trident-hills#central-vista" className="btn-navy" style={{ flex: 1, textAlign: 'center' }}>
                     Explore Enclave
                   </Link>
                   <button type="button" onClick={triggerSiteVisit} className="btn-outline-gold" style={{ padding: '12px 18px' }}>
@@ -321,7 +320,7 @@ export default function HomePage() {
         <div className="container">
           <div style={{ display: 'flex', justifyContent: 'space-between', alignItems: 'flex-end', flexWrap: 'wrap', gap: '20px', marginBottom: '40px' }}>
             <div>
-              <div className="badge-forest" style={{ marginBottom: '10px' }}>
+              <div className="badge-navy" style={{ marginBottom: '10px' }}>
                 <ShieldCheck size={13} /> 100% Construction-Linked
               </div>
               <h2 style={{ fontSize: '32px', fontWeight: 800, color: 'var(--text-dark)' }}>
@@ -347,7 +346,7 @@ export default function HomePage() {
       </section>
 
       {/* 5. GOLDEN BRICK VERIFIED PROPERTIES PORTFOLIO */}
-      <section style={{ padding: '90px 0', background: 'var(--surface-cream)' }}>
+      <section style={{ padding: '90px 0', background: 'var(--surface-cashmere)' }}>
         <div className="container">
           <div style={{ display: 'flex', justifyContent: 'space-between', alignItems: 'flex-end', flexWrap: 'wrap', gap: '20px', marginBottom: '48px' }}>
             <div>
@@ -381,7 +380,7 @@ export default function HomePage() {
                     position: 'absolute',
                     top: '12px',
                     left: '12px',
-                    background: 'var(--primary-slate)',
+                    background: 'var(--primary-navy)',
                     color: '#ffffff',
                     fontSize: '11px',
                     fontWeight: 700,
@@ -419,7 +418,7 @@ export default function HomePage() {
                     <div style={{ display: 'flex', flexDirection: 'column', gap: '6px', marginBottom: '20px' }}>
                       {prop.highlights.map((h, i) => (
                         <div key={i} style={{ display: 'flex', alignItems: 'center', gap: '8px', fontSize: '12px', color: '#475569' }}>
-                          <CheckCircle2 size={13} color="#184232" />
+                          <CheckCircle2 size={13} color="#c8801f" />
                           <span>{h}</span>
                         </div>
                       ))}
@@ -456,7 +455,7 @@ export default function HomePage() {
       <section style={{ padding: '90px 0', background: '#ffffff' }}>
         <div className="container">
           <div style={{ textAlign: 'center', maxWidth: '720px', margin: '0 auto 54px' }}>
-            <div className="badge-forest" style={{ marginBottom: '12px' }}>
+            <div className="badge-gold" style={{ marginBottom: '12px' }}>
               <Trees size={13} /> Integrated Foothill Living
             </div>
             <h2 style={{ fontSize: '36px', fontWeight: 800, color: 'var(--text-dark)', marginBottom: '16px' }}>
@@ -546,7 +545,7 @@ export default function HomePage() {
                     boxShadow: '0 4px 12px rgba(0,0,0,0.03)'
                   }}
                 >
-                  <div style={{ fontSize: '24px', fontWeight: 800, color: 'var(--forest-green)', marginBottom: '4px' }}>
+                  <div style={{ fontSize: '24px', fontWeight: 800, color: 'var(--accent-gold-dark)', marginBottom: '4px' }}>
                     {c.time}
                   </div>
                   <div style={{ fontSize: '14px', fontWeight: 700, color: 'var(--text-dark)', marginBottom: '4px' }}>
@@ -566,7 +565,7 @@ export default function HomePage() {
       <section style={{ padding: '90px 0', background: '#ffffff', borderTop: '1px solid #e9ecef' }}>
         <div className="container">
           <div style={{ textAlign: 'center', maxWidth: '720px', margin: '0 auto 50px' }}>
-            <div className="badge-forest" style={{ marginBottom: '12px' }}>
+            <div className="badge-navy" style={{ marginBottom: '12px' }}>
               <Heart size={13} /> Verified Buyer Confidence
             </div>
             <h2 style={{ fontSize: '36px', fontWeight: 800, color: 'var(--text-dark)', marginBottom: '14px' }}>
@@ -593,7 +592,7 @@ export default function HomePage() {
                       {t.role} &bull; {t.location}
                     </div>
                   </div>
-                  <div style={{ fontSize: '11px', fontWeight: 700, color: 'var(--accent-gold-dark)', background: 'var(--accent-gold-bg)', padding: '4px 8px', borderRadius: '4px' }}>
+                  <div style={{ fontSize: '11px', fontWeight: 700, color: 'var(--accent-gold-dark)', background: 'var(--accent-gold-bg)', padding: '4px 8px', borderRadius: '4px', border: '1px solid var(--accent-gold-border)' }}>
                     {t.property}
                   </div>
                 </div>
@@ -604,7 +603,7 @@ export default function HomePage() {
       </section>
 
       {/* 10. FAQS ACCORDION */}
-      <section style={{ padding: '80px 0', background: 'var(--surface-cream)' }}>
+      <section style={{ padding: '80px 0', background: 'var(--surface-cashmere)' }}>
         <div className="container" style={{ maxWidth: '840px' }}>
           <div style={{ textAlign: 'center', marginBottom: '40px' }}>
             <div className="badge-gold" style={{ marginBottom: '10px' }}>
@@ -672,7 +671,7 @@ export default function HomePage() {
 
       {/* 11. FINAL VIP INVITATION BANNER */}
       <section style={{
-        background: 'linear-gradient(135deg, #081410 0%, #153828 100%)',
+        background: 'linear-gradient(135deg, #090e17 0%, #141f32 100%)',
         color: '#ffffff',
         padding: '80px 0',
         textAlign: 'center',

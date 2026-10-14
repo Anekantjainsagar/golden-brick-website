@@ -48,10 +48,10 @@ export default function CrmMobileFeature() {
   ];
 
   return (
-    <section className="relative overflow-hidden bg-gradient-to-b from-[#081410] via-[#0d221a] to-[#081410] text-white py-24 border-t-2 border-b-2 border-brand-gold/30">
-      {/* Background radial gold glow */}
+    <section className="relative overflow-hidden bg-gradient-to-b from-[#090e17] via-[#101927] to-[#090e17] text-white py-24 border-t-2 border-b-2 border-brand-gold/30">
+      {/* Background ambient gold accents */}
       <div className="absolute top-1/4 right-0 w-[550px] h-[550px] bg-gradient-to-br from-brand-gold/15 to-transparent rounded-full blur-3xl pointer-events-none" />
-      <div className="absolute bottom-10 left-10 w-[400px] h-[400px] bg-gradient-to-tr from-brand-forestGreen/20 to-transparent rounded-full blur-2xl pointer-events-none" />
+      <div className="absolute bottom-10 left-10 w-[400px] h-[400px] bg-gradient-to-tr from-brand-goldChampagne/10 to-transparent rounded-full blur-2xl pointer-events-none" />
 
       <div className="container relative z-10">
         {/* Section Header */}
@@ -72,7 +72,7 @@ export default function CrmMobileFeature() {
 
         {/* 3 Real App Screens Showcase */}
         <div className="grid grid-cols-1 md:grid-cols-3 gap-8 items-end max-w-6xl mx-auto mb-16">
-          {screens.map((screen, idx) => (
+          {screens.map((screen) => (
             <div 
               key={screen.id} 
               className={`flex flex-col items-center transition-all duration-300 ${
@@ -110,7 +110,7 @@ export default function CrmMobileFeature() {
         </div>
 
         {/* App Store & Google Play Official Download Strip */}
-        <div className="max-w-4xl mx-auto bg-slate-950/70 backdrop-blur-md border border-brand-gold/30 rounded-2xl p-8 shadow-2xl">
+        <div className="max-w-4xl mx-auto bg-slate-950/80 backdrop-blur-md border border-brand-gold/30 rounded-2xl p-8 shadow-2xl">
           <div className="flex flex-col lg:flex-row items-center justify-between gap-8">
             <div className="flex items-center gap-5">
               <div className="w-16 h-16 rounded-2xl bg-white p-2 flex items-center justify-center shadow-lg border border-brand-gold flex-shrink-0">
@@ -125,7 +125,7 @@ export default function CrmMobileFeature() {
                   <h3 className="text-xl font-bold text-white font-heading">
                     Golden Brick CRM Mobile
                   </h3>
-                  <span className="bg-emerald-950 text-emerald-400 border border-emerald-500/30 text-[10px] font-bold px-2 py-0.5 rounded-full uppercase tracking-wider">
+                  <span className="bg-amber-950/70 text-brand-goldLight border border-brand-gold/40 text-[10px] font-bold px-2.5 py-0.5 rounded-full uppercase tracking-wider">
                     v1.0.0 Live
                   </span>
                 </div>

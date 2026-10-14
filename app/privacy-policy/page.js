@@ -50,7 +50,7 @@ export default function PrivacyPolicyPage() {
           {/* Section 2 */}
           <div>
             <h2 className="text-xl font-heading font-bold text-slate-900 mb-3 flex items-center gap-2">
-              <span className="w-7 h-7 rounded-full bg-brand-forestGreen text-white text-xs flex items-center justify-center font-bold">2</span>
+              <span className="w-7 h-7 rounded-full bg-brand-gold text-white text-xs flex items-center justify-center font-bold">2</span>
               How We Use Data
             </h2>
             <p className="mb-3">
@@ -58,31 +58,31 @@ export default function PrivacyPolicyPage() {
             </p>
             <div className="grid grid-cols-1 md:grid-cols-2 gap-3 text-sm">
               <div className="p-3 bg-white border border-slate-200 rounded-lg flex items-start gap-2">
-                <CheckCircle2 size={16} className="text-emerald-600 mt-0.5 flex-shrink-0" />
+                <CheckCircle2 size={16} className="text-brand-gold mt-0.5 flex-shrink-0" />
                 <span>Managing leads, scheduling site visits, and holding plot inventory.</span>
               </div>
               <div className="p-3 bg-white border border-slate-200 rounded-lg flex items-start gap-2">
-                <CheckCircle2 size={16} className="text-emerald-600 mt-0.5 flex-shrink-0" />
+                <CheckCircle2 size={16} className="text-brand-gold mt-0.5 flex-shrink-0" />
                 <span>Tracking 8-milestone construction escrow &amp; issuing digital receipts.</span>
               </div>
               <div className="p-3 bg-white border border-slate-200 rounded-lg flex items-start gap-2">
-                <CheckCircle2 size={16} className="text-emerald-600 mt-0.5 flex-shrink-0" />
+                <CheckCircle2 size={16} className="text-brand-gold mt-0.5 flex-shrink-0" />
                 <span>Facilitating developer coordination with Trident Realty &amp; DLF.</span>
               </div>
               <div className="p-3 bg-white border border-slate-200 rounded-lg flex items-start gap-2">
-                <CheckCircle2 size={16} className="text-emerald-600 mt-0.5 flex-shrink-0" />
+                <CheckCircle2 size={16} className="text-brand-gold mt-0.5 flex-shrink-0" />
                 <span>Maintaining role-based workspace authorization and audit logs.</span>
               </div>
             </div>
           </div>
 
           {/* Section 3 */}
-          <div className="bg-emerald-50/60 border border-emerald-200 rounded-xl p-6">
-            <h2 className="text-xl font-heading font-bold text-emerald-950 mb-2 flex items-center gap-2">
-              <span className="w-7 h-7 rounded-full bg-emerald-700 text-white text-xs flex items-center justify-center font-bold">3</span>
+          <div className="bg-slate-50 border border-slate-200 rounded-xl p-6">
+            <h2 className="text-xl font-heading font-bold text-slate-900 mb-2 flex items-center gap-2">
+              <span className="w-7 h-7 rounded-full bg-brand-slate text-white text-xs flex items-center justify-center font-bold">3</span>
               Advertising and Tracking Declaration
             </h2>
-            <p className="text-emerald-900 text-sm leading-relaxed">
+            <p className="text-slate-700 text-sm leading-relaxed">
               <strong>Strictly No Commercial Advertising:</strong> The Golden Brick CRM application contains <strong>NO third-party advertisements</strong>. We do not integrate the Google Advertising ID (AAID), ad networks, behavioral trackers, or data broker SDKs.
             </p>
           </div>

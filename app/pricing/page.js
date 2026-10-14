@@ -24,7 +24,7 @@ export default function PricingPage() {
     <div>
       {/* Header Banner */}
       <section style={{
-        background: 'linear-gradient(180deg, rgba(8, 20, 16, 0.88) 0%, rgba(8, 20, 16, 0.96) 100%), url("/images/central-vista-grand-entrance.jpg") center/cover no-repeat',
+        background: 'linear-gradient(180deg, rgba(9, 14, 23, 0.92) 0%, rgba(15, 23, 42, 0.97) 100%), url("/images/central-vista-grand-entrance.jpg") center/cover no-repeat',
         color: '#ffffff',
         padding: '90px 0 60px',
         borderBottom: '2px solid #c8801f'
@@ -53,7 +53,7 @@ export default function PricingPage() {
       <section style={{ padding: '80px 0', background: '#ffffff', borderTop: '1px solid #e2e8f0' }}>
         <div className="container">
           <div style={{ textAlign: 'center', maxWidth: '720px', margin: '0 auto 48px' }}>
-            <div className="badge-forest" style={{ marginBottom: '10px' }}>
+            <div className="badge-gold" style={{ marginBottom: '10px' }}>
               <Sliders size={13} /> Standard Dimension Tiers
             </div>
             <h2 style={{ fontSize: '32px', fontWeight: 800, color: 'var(--text-dark)', marginBottom: '12px' }}>
@@ -67,7 +67,7 @@ export default function PricingPage() {
           <div style={{ overflowX: 'auto', borderRadius: '16px', border: '1.5px solid #e2e8f0', boxShadow: 'var(--shadow-card)' }}>
             <table style={{ width: '100%', borderCollapse: 'collapse', textAlign: 'left', fontSize: '14px' }}>
               <thead>
-                <tr style={{ background: '#081410', color: '#ffffff' }}>
+                <tr style={{ background: '#090e17', color: '#ffffff' }}>
                   <th style={{ padding: '18px 20px', fontWeight: 700 }}>Plot Area</th>
                   <th style={{ padding: '18px 20px', fontWeight: 700 }}>Allotment Component (@ ₹90k)</th>
                   <th style={{ padding: '18px 20px', fontWeight: 700 }}>Location Premium Component</th>
@@ -96,8 +96,8 @@ export default function PricingPage() {
                     </td>
                     <td style={{ padding: '18px 20px', color: '#475569' }}>{tier.allotment}</td>
                     <td style={{ padding: '18px 20px', color: '#c8801f', fontWeight: 600 }}>{tier.premium}</td>
-                    <td style={{ padding: '18px 20px', fontWeight: 800, color: '#081410', fontSize: '16px' }}>{tier.total}</td>
-                    <td style={{ padding: '18px 20px', color: 'var(--forest-green)', fontWeight: 700 }}>{tier.token}</td>
+                    <td style={{ padding: '18px 20px', fontWeight: 800, color: '#0f172a', fontSize: '16px' }}>{tier.total}</td>
+                    <td style={{ padding: '18px 20px', color: 'var(--accent-gold-dark)', fontWeight: 700 }}>{tier.token}</td>
                     <td style={{ padding: '18px 20px', textAlign: 'center' }}>
                       <a
                         href={`https://wa.me/${COMPANY_INFO.whatsapp}?text=I%20am%20interested%20in%20the%20${encodeURIComponent(tier.label)}%20Trident%20Hills%20plot`}
@@ -121,7 +121,7 @@ export default function PricingPage() {
       <section style={{ padding: '80px 0', background: 'var(--surface-cream)' }}>
         <div className="container">
           <div style={{ textAlign: 'center', maxWidth: '720px', margin: '0 auto 40px' }}>
-            <div className="badge-forest" style={{ marginBottom: '10px' }}>
+            <div className="badge-gold" style={{ marginBottom: '10px' }}>
               <ShieldCheck size={13} /> Civil Construction Linked
             </div>
             <h2 style={{ fontSize: '32px', fontWeight: 800, color: 'var(--text-dark)', marginBottom: '12px' }}>

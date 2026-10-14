@@ -17,7 +17,8 @@ export default function PaymentMilestones() {
               display: 'flex',
               flexDirection: 'column',
               justifyContent: 'space-between',
-              position: 'relative'
+              position: 'relative',
+              background: '#ffffff'
             }}
           >
             <div>
@@ -39,10 +40,11 @@ export default function PaymentMilestones() {
                 </span>
 
                 <span style={{
-                  fontSize: '16px',
+                  fontSize: '15px',
                   fontWeight: 800,
-                  color: 'var(--forest-green)',
-                  background: 'var(--forest-tag-bg)',
+                  color: 'var(--accent-gold-dark)',
+                  background: 'var(--accent-gold-bg)',
+                  border: '1px solid var(--accent-gold-border)',
                   padding: '4px 10px',
                   borderRadius: '6px'
                 }}>
@@ -54,7 +56,7 @@ export default function PaymentMilestones() {
                 {m.title}
               </h4>
 
-              <p style={{ fontSize: '12px', color: '#64748b', lineHeight: 1.6 }}>
+              <p style={{ fontSize: '13px', color: '#64748b', lineHeight: 1.6 }}>
                 {m.timing}
               </p>
             </div>

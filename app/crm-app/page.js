@@ -64,7 +64,7 @@ export default function CrmAppPage() {
   return (
     <div className="bg-brand-alabaster min-h-screen">
       {/* Hero Header */}
-      <section className="bg-gradient-to-b from-[#081410] via-[#0d221a] to-[#081410] text-white py-24 border-b-2 border-brand-gold/30">
+      <section className="bg-gradient-to-b from-[#090e17] via-[#0f172a] to-[#090e17] text-white py-24 border-b-2 border-brand-gold/30">
         <div className="container text-center max-w-4xl mx-auto">
           <div className="inline-flex items-center gap-2 px-4 py-1.5 rounded-full bg-brand-goldBg border border-brand-gold/30 text-brand-goldDark text-xs font-bold uppercase tracking-wider mb-5">
             <Smartphone size={14} className="text-brand-gold" /> Available on iOS &amp; Android
@@ -157,7 +157,7 @@ export default function CrmAppPage() {
 
                   {/* Feature Content */}
                   <div className="w-full lg:w-7/12">
-                    <span className="inline-block text-xs font-bold uppercase tracking-wider text-brand-forestGreen bg-brand-forestGreen/10 px-3 py-1 rounded-full mb-3">
+                    <span className="inline-block text-xs font-bold uppercase tracking-wider text-brand-goldDark bg-brand-goldBg border border-brand-gold/30 px-3 py-1 rounded-full mb-3">
                       {item.badge}
                     </span>
                     <h3 className="text-2xl md:text-3xl font-heading font-bold text-slate-900 mb-5">
@@ -167,7 +167,7 @@ export default function CrmAppPage() {
                     <div className="space-y-3.5 mb-8">
                       {item.features.map((feat, fIdx) => (
                         <div key={fIdx} className="flex items-start gap-3">
-                          <CheckCircle2 size={18} className="text-emerald-700 flex-shrink-0 mt-0.5" />
+                          <CheckCircle2 size={18} className="text-brand-gold flex-shrink-0 mt-0.5" />
                           <span className="text-sm md:text-base text-slate-700 leading-relaxed">
                             {feat}
                           </span>

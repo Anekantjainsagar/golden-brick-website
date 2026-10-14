@@ -11,16 +11,17 @@ module.exports = {
       colors: {
         brand: {
           gold: '#c8801f',
-          goldDark: '#a96711',
+          goldChampagne: '#c5a880',
+          goldDark: '#9e6412',
           goldLight: '#df9e38',
-          goldBg: '#fffbf2',
-          forestDark: '#081410',
-          forestDeep: '#0c1c16',
-          forestGreen: '#184232',
-          forestHover: '#1e523f',
-          alabaster: '#fcfbf8',
-          cream: '#faf8f5',
-          navy: '#0f172a'
+          goldBg: '#faf4e8',
+          midnight: '#090e17',
+          navy: '#0f172a',
+          navySurface: '#141f32',
+          navyBorder: '#1e293b',
+          alabaster: '#fcfaf6',
+          cashmere: '#f5f1e8',
+          stoneBorder: '#e8e2d5'
         }
       },
       fontFamily: {

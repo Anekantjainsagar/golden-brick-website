@@ -5,7 +5,7 @@ import { COMPANY_INFO, TRIDENT_HILLS } from '../data/projectData';
 export default function Footer() {
   return (
     <footer style={{
-      background: 'linear-gradient(180deg, #081410 0%, #050d0a 100%)',
+      background: 'linear-gradient(180deg, #090e17 0%, #05080e 100%)',
       color: '#cbd5e1',
       borderTop: '2px solid #c8801f',
       paddingTop: '64px',
@@ -77,12 +77,12 @@ export default function Footer() {
                 </Link>
               </li>
               <li>
-                <Link href="/properties#dlf-valley" style={{ color: '#cbd5e1', transition: 'color 0.2s', display: 'flex', alignItems: 'center', gap: '6px' }}>
+                <Link href="/properties" style={{ color: '#cbd5e1', transition: 'color 0.2s', display: 'flex', alignItems: 'center', gap: '6px' }}>
                   <span style={{ color: '#c8801f' }}>&bull;</span> DLF The Valley Gardens
                 </Link>
               </li>
               <li>
-                <Link href="/properties#trident-parktown" style={{ color: '#cbd5e1', transition: 'color 0.2s', display: 'flex', alignItems: 'center', gap: '6px' }}>
+                <Link href="/properties" style={{ color: '#cbd5e1', transition: 'color 0.2s', display: 'flex', alignItems: 'center', gap: '6px' }}>
                   <span style={{ color: '#c8801f' }}>&bull;</span> Trident Parktown Panipat
                 </Link>
               </li>
@@ -101,7 +101,7 @@ export default function Footer() {
                 </Link>
               </li>
               <li>
-                <Link href="/pricing#payment-plan" style={{ color: '#cbd5e1', transition: 'color 0.2s', display: 'flex', alignItems: 'center', gap: '6px' }}>
+                <Link href="/pricing" style={{ color: '#cbd5e1', transition: 'color 0.2s', display: 'flex', alignItems: 'center', gap: '6px' }}>
                   <span style={{ color: '#c8801f' }}>&bull;</span> 8-Milestone Payment Schedule
                 </Link>
               </li>

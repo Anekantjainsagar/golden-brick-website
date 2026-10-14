@@ -2,9 +2,8 @@
 
 import { useState, useEffect } from 'react';
 import Link from 'next/link';
-import Image from 'next/image';
 import { Phone, Calendar, Menu, X, ShieldCheck, Smartphone, Sparkles, ChevronRight } from 'lucide-react';
-import { COMPANY_INFO, TRIDENT_HILLS } from '../data/projectData';
+import { COMPANY_INFO } from '../data/projectData';
 
 export default function Navbar({ onOpenSiteVisit }) {
   const [scrolled, setScrolled] = useState(false);
@@ -26,7 +25,7 @@ export default function Navbar({ onOpenSiteVisit }) {
     <>
       {/* Top Advisory Strip */}
       <div style={{
-        background: 'linear-gradient(90deg, #081410 0%, #132a21 50%, #081410 100%)',
+        background: 'linear-gradient(90deg, #090e17 0%, #141f32 50%, #090e17 100%)',
         borderBottom: '1px solid rgba(200, 128, 31, 0.25)',
         color: '#e2e8f0',
         fontSize: '12px',
@@ -38,7 +37,7 @@ export default function Navbar({ onOpenSiteVisit }) {
             <span style={{ display: 'inline-flex', alignItems: 'center', gap: '6px', color: '#f3c178' }}>
               <ShieldCheck size={14} /> HARERA Approved: PKL-PKL-355-2022 &amp; PKL-PKL-782-2025
             </span>
-            <span style={{ display: 'inline-flex', alignItems: 'center', gap: '6px' }}>
+            <span style={{ display: 'inline-flex', alignItems: 'center', gap: '6px', color: '#cbd5e1' }}>
               <Sparkles size={14} color="#df9e38" /> Official Partner: Trident Hills &amp; DLF Panchkula
             </span>
           </div>
@@ -59,7 +58,7 @@ export default function Navbar({ onOpenSiteVisit }) {
         position: 'sticky',
         top: 0,
         zIndex: 50,
-        backgroundColor: scrolled ? 'rgba(8, 20, 16, 0.95)' : 'rgba(8, 20, 16, 0.88)',
+        backgroundColor: scrolled ? 'rgba(9, 14, 23, 0.96)' : 'rgba(9, 14, 23, 0.90)',
         backdropFilter: 'blur(16px)',
         WebkitBackdropFilter: 'blur(16px)',
         borderBottom: scrolled ? '1px solid rgba(200, 128, 31, 0.3)' : '1px solid rgba(255, 255, 255, 0.08)',
@@ -216,7 +215,7 @@ export default function Navbar({ onOpenSiteVisit }) {
         {/* Mobile Dropdown Menu */}
         {mobileMenuOpen && (
           <div style={{
-            background: '#081410',
+            background: '#090e17',
             borderBottom: '2px solid #c8801f',
             padding: '24px 20px',
             display: 'flex',

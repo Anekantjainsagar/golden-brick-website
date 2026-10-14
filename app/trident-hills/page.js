@@ -14,7 +14,7 @@ export default function TridentHillsPage() {
     <div>
       {/* Hero Header */}
       <section style={{
-        background: 'linear-gradient(180deg, rgba(8, 20, 16, 0.85) 0%, rgba(8, 20, 16, 0.95) 100%), url("/images/nature-reflection-sunglasses.jpg") center/cover no-repeat',
+        background: 'linear-gradient(180deg, rgba(9, 14, 23, 0.90) 0%, rgba(15, 23, 42, 0.97) 100%), url("/images/nature-reflection-sunglasses.jpg") center/cover no-repeat',
         color: '#ffffff',
         padding: '100px 0 70px',
         borderBottom: '2px solid rgba(200, 128, 31, 0.3)'
@@ -40,7 +40,7 @@ export default function TridentHillsPage() {
         <div className="container">
           <div style={{ display: 'grid', gridTemplateColumns: '1.2fr 1fr', gap: '50px', alignItems: 'center' }} className="detail-grid">
             <div>
-              <div className="badge-forest" style={{ marginBottom: '12px' }}>
+              <div className="badge-gold" style={{ marginBottom: '12px' }}>
                 <Trees size={13} /> The Foothills Sanctuary
               </div>
               <h2 style={{ fontSize: '34px', fontWeight: 800, color: 'var(--text-dark)', marginBottom: '18px' }}>
@@ -72,7 +72,7 @@ export default function TridentHillsPage() {
                 alt="Trident Hills Sunrise"
                 style={{ width: '100%', height: 'auto', display: 'block' }}
               />
-              <div style={{ background: '#081410', color: '#ffffff', padding: '20px' }}>
+              <div style={{ background: '#090e17', color: '#ffffff', padding: '20px' }}>
                 <div style={{ fontSize: '12px', color: '#c8801f', fontWeight: 700, textTransform: 'uppercase' }}>
                   Actual Site Perspective
                 </div>
@@ -109,7 +109,7 @@ export default function TridentHillsPage() {
               </div>
               <div style={{ padding: '40px', display: 'flex', flexDirection: 'column', justifyContent: 'space-between' }}>
                 <div>
-                  <div className="badge-forest" style={{ marginBottom: '12px' }}>
+                  <div className="badge-gold" style={{ marginBottom: '12px' }}>
                     HRERA-PKL-PKL-355-2022
                   </div>
                   <h3 style={{ fontSize: '28px', fontWeight: 800, color: 'var(--text-dark)', marginBottom: '8px' }}>
@@ -200,7 +200,7 @@ export default function TridentHillsPage() {
       <section style={{ padding: '70px 0', background: '#ffffff' }}>
         <div className="container" style={{ maxWidth: '900px' }}>
           <div style={{ textAlign: 'center', marginBottom: '32px' }}>
-            <div className="badge-forest" style={{ marginBottom: '8px' }}>
+            <div className="badge-gold" style={{ marginBottom: '8px' }}>
               <ShieldCheck size={13} /> Full Legal Compliance
             </div>
             <h3 style={{ fontSize: '28px', fontWeight: 800, color: 'var(--text-dark)' }}>
@@ -211,7 +211,7 @@ export default function TridentHillsPage() {
           <div style={{ background: '#f8fafc', borderRadius: '16px', border: '1.5px solid #e2e8f0', overflow: 'hidden' }}>
             <table style={{ width: '100%', borderCollapse: 'collapse', textAlign: 'left', fontSize: '13px' }}>
               <thead>
-                <tr style={{ background: '#081410', color: '#ffffff' }}>
+                <tr style={{ background: '#090e17', color: '#ffffff' }}>
                   <th style={{ padding: '16px 20px', fontWeight: 700 }}>Phase &amp; Project Name</th>
                   <th style={{ padding: '16px 20px', fontWeight: 700 }}>HRERA Registration Number</th>
                   <th style={{ padding: '16px 20px', fontWeight: 700 }}>Statutory Validity</th>
@@ -222,7 +222,7 @@ export default function TridentHillsPage() {
                   <tr key={i} style={{ borderBottom: '1px solid #e2e8f0' }}>
                     <td style={{ padding: '16px 20px', fontWeight: 700, color: '#0f172a' }}>{r.name}</td>
                     <td style={{ padding: '16px 20px', color: '#c8801f', fontWeight: 600 }}>{r.number}</td>
-                    <td style={{ padding: '16px 20px', color: '#143728', fontWeight: 600 }}>{r.validity}</td>
+                    <td style={{ padding: '16px 20px', color: '#0f172a', fontWeight: 600 }}>{r.validity}</td>
                   </tr>
                 ))}
               </tbody>

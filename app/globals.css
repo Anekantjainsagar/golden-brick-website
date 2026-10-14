@@ -5,28 +5,29 @@
 @tailwind utilities;
 
 :root {
-  --primary-slate: #081410;
-  --primary-deep: #0c1c16;
+  /* Luxury Midnight Slate & Obsidian */
+  --primary-midnight: #090e17;
   --primary-navy: #0f172a;
-  --primary-surface: #132a21;
+  --primary-deep: #05080e;
+  --primary-surface: #141f32;
   
+  /* Imperial Champagne & Warm Bronze Gold */
   --accent-gold: #c8801f;
-  --accent-gold-dark: #a96711;
-  --accent-gold-light: #df9e38;
-  --accent-gold-bg: #fffbf2;
-  --accent-gold-border: rgba(200, 128, 31, 0.25);
-  --accent-gold-glow: rgba(200, 128, 31, 0.15);
+  --accent-gold-champagne: #c5a880;
+  --accent-gold-dark: #9e6412;
+  --accent-gold-light: #e5c07b;
+  --accent-gold-bg: #faf4e8;
+  --accent-gold-border: rgba(200, 128, 31, 0.28);
+  --accent-gold-glow: rgba(200, 128, 31, 0.16);
   
-  --forest-green: #184232;
-  --forest-green-hover: #1e523f;
-  --forest-tag-bg: #eaf5f0;
-  --forest-tag-text: #134230;
-  
-  --surface-cream: #faf8f5;
-  --surface-alabaster: #fcfbf8;
+  /* Warm Cashmere & Alabaster Stone Surfaces (No stark harsh whites or greens) */
+  --surface-alabaster: #fcfaf6;
+  --surface-cashmere: #f5f1e8;
   --surface-card: #ffffff;
-  --surface-border: #e9ecef;
+  --surface-border: #e8e2d5;
+  --surface-border-subtle: #f0ebe1;
   
+  /* Sophisticated Typography Colors */
   --text-dark: #0f172a;
   --text-body: #334155;
   --text-muted: #64748b;
@@ -43,10 +44,10 @@
   --font-heading: 'Outfit', sans-serif;
   --font-sans: 'Plus Jakarta Sans', system-ui, -apple-system, sans-serif;
   
-  --shadow-subtle: 0 4px 20px -2px rgba(15, 23, 42, 0.05);
-  --shadow-card: 0 10px 30px -5px rgba(15, 23, 42, 0.07);
-  --shadow-hover: 0 20px 40px -10px rgba(12, 28, 22, 0.14);
-  --shadow-gold: 0 8px 24px -4px rgba(200, 128, 31, 0.35);
+  --shadow-subtle: 0 4px 20px -2px rgba(15, 23, 42, 0.04);
+  --shadow-card: 0 10px 30px -5px rgba(15, 23, 42, 0.06);
+  --shadow-hover: 0 20px 40px -10px rgba(15, 23, 42, 0.12);
+  --shadow-gold: 0 8px 24px -4px rgba(200, 128, 31, 0.32);
 }
 
 * {
@@ -79,9 +80,9 @@ h1, h2, h3, h4, h5, h6 {
   font-family: var(--font-display);
 }
 
-/* Cards & Panels */
+/* Glassmorphism & Cards */
 .glass-panel {
-  background: rgba(255, 255, 255, 0.88);
+  background: rgba(255, 255, 255, 0.92);
   backdrop-filter: blur(14px);
   -webkit-backdrop-filter: blur(14px);
   border: 1px solid rgba(200, 128, 31, 0.2);
@@ -90,13 +91,13 @@ h1, h2, h3, h4, h5, h6 {
 }
 
 .glass-panel-dark {
-  background: rgba(12, 28, 22, 0.85);
+  background: rgba(9, 14, 23, 0.88);
   backdrop-filter: blur(16px);
   -webkit-backdrop-filter: blur(16px);
-  border: 1px solid rgba(200, 128, 31, 0.28);
+  border: 1px solid rgba(200, 128, 31, 0.25);
   border-radius: var(--radius-lg);
   color: #fff;
-  box-shadow: 0 20px 50px rgba(0, 0, 0, 0.3);
+  box-shadow: 0 20px 50px rgba(0, 0, 0, 0.4);
 }
 
 .card-luxury {
@@ -120,13 +121,13 @@ h1, h2, h3, h4, h5, h6 {
   border-radius: 44px;
   padding: 12px;
   background: #0f172a;
-  box-shadow: 0 25px 60px -15px rgba(0, 0, 0, 0.4), 0 0 0 1px rgba(255, 255, 255, 0.15);
+  box-shadow: 0 25px 60px -15px rgba(0, 0, 0, 0.5), 0 0 0 1px rgba(255, 255, 255, 0.12);
   transition: transform 0.4s cubic-bezier(0.16, 1, 0.3, 1), box-shadow 0.4s ease;
 }
 
 .phone-mockup:hover {
-  transform: translateY(-8px) scale(1.02);
-  box-shadow: 0 32px 70px -12px rgba(200, 128, 31, 0.25), 0 0 0 1px rgba(200, 128, 31, 0.4);
+  transform: translateY(-6px) scale(1.02);
+  box-shadow: 0 32px 70px -12px rgba(200, 128, 31, 0.22), 0 0 0 1px rgba(200, 128, 31, 0.4);
 }
 
 .phone-mockup-inner {
@@ -153,13 +154,13 @@ h1, h2, h3, h4, h5, h6 {
   transition: all 0.2s ease;
 }
 
-.badge-forest {
+.badge-navy {
   display: inline-flex;
   align-items: center;
   gap: 6px;
-  background: var(--forest-tag-bg);
-  color: var(--forest-tag-text);
-  border: 1px solid rgba(24, 66, 50, 0.2);
+  background: #f1f5f9;
+  color: #0f172a;
+  border: 1px solid #cbd5e1;
   font-size: 13px;
   font-weight: 700;
   letter-spacing: 0.5px;
@@ -169,7 +170,7 @@ h1, h2, h3, h4, h5, h6 {
   transition: all 0.2s ease;
 }
 
-/* Buttons */
+/* Primary Luxury Buttons */
 .btn-gold {
   display: inline-flex;
   align-items: center;
@@ -192,7 +193,7 @@ h1, h2, h3, h4, h5, h6 {
 .btn-gold:hover {
   background: linear-gradient(135deg, #e5a93c 0%, #d48b26 60%, #b87113 100%);
   transform: translateY(-2px);
-  box-shadow: 0 14px 30px -4px rgba(200, 128, 31, 0.5);
+  box-shadow: 0 14px 30px -4px rgba(200, 128, 31, 0.45);
 }
 
 .btn-outline-gold {
@@ -219,26 +220,27 @@ h1, h2, h3, h4, h5, h6 {
   transform: translateY(-2px);
 }
 
-.btn-forest {
+.btn-navy {
   display: inline-flex;
   align-items: center;
   justify-content: center;
   gap: 10px;
-  background: var(--forest-green);
+  background: #0f172a;
   color: #ffffff;
   font-family: var(--font-heading);
   font-weight: 700;
   font-size: 15px;
   padding: 14px 28px;
   border-radius: var(--radius-md);
-  border: none;
+  border: 1px solid rgba(255, 255, 255, 0.12);
   cursor: pointer;
   transition: all 0.25s ease;
 }
 
-.btn-forest:hover {
-  background: var(--forest-green-hover);
+.btn-navy:hover {
+  background: #1e293b;
   transform: translateY(-2px);
+  border-color: #c8801f;
 }
 
 /* Range Slider */
