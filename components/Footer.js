@@ -192,8 +192,9 @@ export default function Footer() {
           <div>
             &copy; {new Date().getFullYear()} {COMPANY_INFO.name}. All rights reserved.
           </div>
-          <div style={{ display: 'flex', gap: '20px' }}>
+          <div style={{ display: 'flex', gap: '20px', flexWrap: 'wrap' }}>
             <Link href="/privacy-policy" style={{ color: '#94a3b8' }}>Privacy Policy</Link>
+            <Link href="/crm-privacy-policy" style={{ color: '#c8801f' }}>CRM App Privacy (Google Play)</Link>
             <Link href="/terms" style={{ color: '#94a3b8' }}>Terms &amp; Conditions</Link>
             <Link href="/contact" style={{ color: '#94a3b8' }}>Support &amp; Feedback</Link>
           </div>
